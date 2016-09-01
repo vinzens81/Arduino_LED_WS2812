@@ -119,13 +119,13 @@ void getMinMaxLight(int light) {
   }
 }
 int getColorValueRising(int hueAngle, int angleDiff) {
-  float range=maxLight/minLight
+  float range=maxLight-minLight;
   int color=0;
   color=((255.0/60.0*(hueAngle-angleDiff))/255.0*range)+minLight;
   return (color);
 }
 int getColorValueFalling(int hueAngle, int angleDiff) {
-  float range=maxLight/minLight
+  float range=maxLight-minLight;
   int color=0;
   color=((255-(255.0/60.0*(hueAngle-angleDiff)))/255.0*range)+minLight;
   if (color > 255) {
