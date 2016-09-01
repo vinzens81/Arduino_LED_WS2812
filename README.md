@@ -10,5 +10,8 @@ i used an i2c display to read values. This is not needed for LED usage. (just de
 
 The analog read with USB and external power connected is broken. In this cases i have never reached 100% readout. So i just disconnected USB for testing
 
+https://en.wikipedia.org/wiki/HSL_and_HSV#/media/File:HSV-RGB-comparison.svg
+this pic was used to generate the Code
+
 
 This is open source, do whatever you want with that code!
