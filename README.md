@@ -11,3 +11,4 @@ i used an i2c display to read values. This is not needed for LED usage. (just de
 The analog read with USB and external power connected is broken. In this cases i have never reached 100% readout. So i just disconnected USB for testing
 
 
+This is open source, do whatever you want with that code!
